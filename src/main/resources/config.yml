@@ -1,0 +1,12 @@
+# File: config.yml
+teleport-warmup: 5  # Time in seconds before teleport after accepting
+teleport-expiry: 60  # Time in seconds before teleport request expires
+tpr-cooldown-minutes: 10  # Time in minutes between each /tpr request. Set to 0 to disable the cooldown completely.
+
+# Home teleport settings
+home-teleport-warmup: 5  # Time in seconds before teleporting home
+home-cooldown-minutes: 10  # Time in minutes between home teleports
+max-homes: 3  # Maximum number of homes a player can set
+
+# Economy settings
+pay-request-expiry: 60  # Time in seconds before a pay request expires

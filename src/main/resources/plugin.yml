@@ -1,0 +1,59 @@
+name: FundaLite
+version: '0.01-SNAPSHOT'
+main: bloody.devmules.fundaLite.FundaLite
+api-version: '1.21'
+softdepend:
+  - Vault
+commands:
+  tpr:
+    description: "Send a teleport request to another player"
+    usage: "/tpr <player>"
+    permission: "fundalite.tpr"
+  tpa:
+    description: "Accept a teleport request"
+    usage: "/tpa"
+    permission: "fundalite.tpa"
+  tp:
+    description: "Teleport directly to another player (staff only)"
+    usage: "/tp <player>"
+    permission: "fundalite.tp"
+  sethome:
+    description: "Set your home location."
+    usage: "/sethome <name>"
+    permission: "fundalite.sethome"
+  home:
+    description: "Teleport to your home location."
+    usage: "/home <name>"
+    permission: "fundalite.home"
+  delhome:
+    description: "Delete your home location."
+    usage: "/delhome <name>"
+    permission: "fundalite.delhome"
+  homelist:
+    description: "List all your homes with coordinates."
+    usage: "/homelist"
+    permission: "fundalite.homelist"
+  pay:
+    description: "Send money to another player."
+    usage: "/pay <player> <amount>"
+    permission: "fundalite.pay"
+  requestpay:
+    description: "Request money from another player."
+    usage: "/requestpay <amount> <player>"
+    permission: "fundalite.requestpay"
+  balance:
+    description: "Check your balance."
+    usage: "/balance"
+    permission: "fundalite.balance"
+  balrank:
+    description: "View the top 10 richest players."
+    usage: "/balrank"
+    permission: "fundalite.balrank"
+  balgive:
+    description: "Admin command to give money to players."
+    usage: "/balgive <player> <amount>"
+    permission: "fundalite.balgive"
+  acceptpay:
+    description: "Accept a payment request."
+    usage: "/acceptpay"
+    permission: "fundalite.acceptpay"
